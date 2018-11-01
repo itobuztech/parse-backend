@@ -1,0 +1,23 @@
+{
+  "name": "parse-app",
+  "version": "0.1.0",
+  "description": "This is a basic parse app.",
+  "keywords": [
+    "parse"
+  ],
+  "engines": {
+    "node": "4.1.x",
+    "npm": "3.7.x"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongodb-runner": "^3.2.1",
+    "parse-dashboard": "^1.2.0",
+    "parse-server": "^2.2.6",
+    "parse-server-generic-email-adapter": "0.0.4"
+  },
+  "scripts": {
+    "start": "mongodb-runner && node index.js",
+    "dash": "parse-dashboard --appId parseapp --masterKey EE9UtETxqFZV2awN --serverURL http://127.0.0.1:8001/parse"
+  }
+}
