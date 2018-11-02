@@ -1,6 +1,11 @@
 var express = require('express');
 var ParseServer = require('parse-server').ParseServer;
 var app = express();
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').load();
+}
+
+console.log('No value for FOO yet:', process.env.FOO);
 
 var api = new ParseServer({
   cloud: './cloud/main.js',
@@ -22,8 +27,8 @@ var api = new ParseServer({
     module: "parse-server-generic-email-adapter",
     options: {
       service: "Gmail",
-      email: "exple@ad.com",
-      password: "asdasd,
+      email: process.env.GMAILUSER,
+      password: process.env.GMAILPASSWORD
     }
   },
 

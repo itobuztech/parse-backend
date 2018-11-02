@@ -1,8 +1,0 @@
-{"error":{"code":255,"message":"Class ataata is not empty, contains 1 objects, cannot drop schema."},"level":"error","message":"Error generating response. ParseError {\n  code: 255,\n  message: 'Class ataata is not empty, contains 1 objects, cannot drop schema.' }","timestamp":"2018-11-01T19:13:49.566Z"}
-{"code":255,"message":"Class ataata is not empty, contains 1 objects, cannot drop schema.","level":"error","timestamp":"2018-11-01T19:13:49.571Z"}
-{"error":{"code":202,"message":"Account already exists for this username."},"level":"error","message":"Error generating response. ParseError {\n  code: 202,\n  message: 'Account already exists for this username.' }","timestamp":"2018-11-01T19:52:44.654Z"}
-{"code":202,"message":"Account already exists for this username.","level":"error","timestamp":"2018-11-01T19:52:44.656Z"}
-{"error":{"code":202,"message":"Account already exists for this username."},"level":"error","message":"Error generating response. ParseError {\n  code: 202,\n  message: 'Account already exists for this username.' }","timestamp":"2018-11-01T19:52:55.363Z"}
-{"code":202,"message":"Account already exists for this username.","level":"error","timestamp":"2018-11-01T19:52:55.364Z"}
-{"error":{"code":202,"message":"Account already exists for this username."},"level":"error","message":"Error generating response. ParseError {\n  code: 202,\n  message: 'Account already exists for this username.' }","timestamp":"2018-11-01T19:52:59.825Z"}
-{"code":202,"message":"Account already exists for this username.","level":"error","timestamp":"2018-11-01T19:52:59.826Z"}
